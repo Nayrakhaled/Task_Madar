@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioGroup
+        android:id="@+id/group_data"
+        android:layout_width="fill_parent"
+        android:clickable="false"
+        android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:clickable="false"
+                android:textSize="18sp"
+                android:text="@string/female"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:checked="false"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radio_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                android:text="@string/male"
+                android:clickable="false"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:checked="false"
+                android:textColor="@color/black" />
+
+    </RadioGroup>
+</RelativeLayout>
